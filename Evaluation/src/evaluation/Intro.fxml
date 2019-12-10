@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" prefHeight="486.0" prefWidth="612.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="evaluation.IntroController">
+   <children>
+      <Button fx:id="cmtdBtn" mnemonicParsing="false" onMouseClicked="#cmtdClicked" onMouseExited="#mouseexcited" onMouseMoved="#mousemoved" prefHeight="40.0" prefWidth="216.0" style="-fx-background-color: rgba(65,105,225,0.4); -fx-background-radius: 100;" text="CMTD">
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+      </Button>
+      <Button fx:id="cmtcBtn" mnemonicParsing="false" onMouseClicked="#cmtcClicked" onMouseExited="#mouseexcited1" onMouseMoved="#mousemoved1" prefHeight="40.0" prefWidth="216.0" style="-fx-background-color: rgba(65,105,225,0.4); -fx-background-radius: 100;" text="CMTC">
+         <VBox.margin>
+            <Insets bottom="20.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>
